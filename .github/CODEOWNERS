@@ -1,0 +1,6 @@
+# Every change needs the maintainer's review, and workflow and package
+# changes in particular, since they control what gets published.
+*                @rashidul-hasan
+/.github/        @rashidul-hasan
+/package.json    @rashidul-hasan
+/scripts/        @rashidul-hasan

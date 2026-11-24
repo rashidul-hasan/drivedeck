@@ -1,0 +1,24 @@
+{
+  "name": "drivedeck",
+  "version": "0.2.0",
+  "description": "All your cloud drives in one place: a local web dashboard for MEGA, Google Drive, Dropbox and OneDrive, powered by rclone",
+  "keywords": ["rclone", "cloud-storage", "mega", "google-drive", "dropbox", "onedrive", "encryption", "backup", "multi-account", "file-browser", "dashboard", "music-player", "self-hosted"],
+  "homepage": "https://github.com/rashidul-hasan/drivedeck#readme",
+  "bugs": { "url": "https://github.com/rashidul-hasan/drivedeck/issues" },
+  "repository": { "type": "git", "url": "git+https://github.com/rashidul-hasan/drivedeck.git" },
+  "license": "MIT",
+  "author": { "name": "Rashidul Hasan", "email": "rashidul69@gmail.com", "url": "https://github.com/rashidul-hasan" },
+  "type": "commonjs",
+  "bin": { "drivedeck": "bin/drivedeck.js" },
+  "files": ["bin", "lib", "public", "README.md", "LICENSE", "SECURITY.md"],
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "check": "node scripts/check.js",
+    "prepublishOnly": "node scripts/check.js --release"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true,
+    "registry": "https://registry.npmjs.org/"
+  }
+}
